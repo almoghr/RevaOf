@@ -33,7 +33,7 @@ require('./routes/index.js')(app);
 // }
 
 connect().then(() => {
-  console.log('MONGO DB is connected');
+  console.log('DB is connected');
   app.listen(port, () => {
     console.log('Server is up with express on port: ', port);
   });
