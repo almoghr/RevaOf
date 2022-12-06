@@ -16,8 +16,7 @@ const EventOwner = require('../models/EventOwner.js');
     function removeEventOwner(EventOwnerId){
         return EventOwner.findOneAndDelete({ _id: EventOwnerId })
     }
-
-
+console.log('hi vebuy')
 
 module.exports = {
   getEventOwner,
